@@ -116,40 +116,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "Source Sans Pro",
-          "slug": "source-sans-pro",
-          "fontFamily": "Source Sans Pro, sans-serif",
-          "fontFace": [
-            {
-              "fontFamily": "Source Sans Pro",
-              "fontWeight": "200",
-              "fontStyle": "normal",
-              "fontStretch": "normal",
-              "src": [
-                "file:./assets/fonts/SansPro/source-sans-pro-v21-cyrillic_latin-200.woff2"
-              ]
-            },
-            {
-              "fontFamily": "Source Sans Pro",
-              "fontWeight": "400",
-              "fontStyle": "normal",
-              "fontStretch": "normal",
-              "src": [
-                "file:./assets/fonts/SansPro/source-sans-pro-v21-cyrillic_latin-regular.woff2"
-              ]
-            },
-            {
-              "fontFamily": "Source Sans Pro",
-              "fontWeight": "700",
-              "fontStyle": "normal",
-              "fontStretch": "normal",
-              "src": [
-                "file:./assets/fonts/SansPro/source-sans-pro-v21-cyrillic_latin-700.woff2"
-              ]
-            }
-          ]
         }
       ],
       "fontSizes": [
