@@ -308,13 +308,13 @@
       "core/button": {
         "color": {
           "background": "var(--wp--preset--color--secondary)",
-          "text": "var(--wp--preset--color--background)"
+          "text": "var(--wp--preset--color--h-color)"
         },
         "typography": {
           "fontSize": "var(--wp--preset--font-size--s)"
         },
         "border": {
-          "radius": "50%"
+          "radius": "30px"
         },
         "spacing": {
           "padding": {
