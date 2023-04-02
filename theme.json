@@ -165,10 +165,10 @@
           "name": "Large"
         },
         {
-          "size": "2.75rem",
+          "size": "2.5rem",
           "fluid": {
-            "min": "2.43rem",
-            "max": "2.75rem"
+            "min": "1.4rem",
+            "max": "2.5rem"
           },
           "slug": "xl",
           "name": "XL"
