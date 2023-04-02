@@ -176,7 +176,7 @@
         {
           "size": "3rem",
           "fluid": {
-            "min": "2.4rem",
+            "min": "2rem",
             "max": "3rem"
           },
           "slug": "xxl",
