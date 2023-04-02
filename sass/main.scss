@@ -1,37 +1,37 @@
-@use 'base' as *;
+@use "base" as *;
 
 body {
-    @include mq(tablet) {
-        
-    }
+  @include mq(tablet) {
+    background: red;
+  }
 }
 
 .wp-block-navigation svg {
-    width: 2rem;
-    height: auto;
+  width: 2rem;
+  height: auto;
 }
 .wp-block-image {
-    border-radius: 8px;
-    overflow: hidden;
+  border-radius: 8px;
+  overflow: hidden;
 }
 .wp-block-buttons {
+  width: 100%;
+  .wp-block-button {
     width: 100%;
-    .wp-block-button {
-        width: 100%;
-        @include mq(tablet) {
-            width: auto;
-        }
-        .wp-element-button {
-        width: 100%;
-        @include mq(tablet) {
-            width: auto;
-        }
-        }
+    @include mq(tablet) {
+      width: auto;
     }
+    .wp-element-button {
+      width: 100%;
+      @include mq(tablet) {
+        width: auto;
+      }
+    }
+  }
 }
 .wp-block-button__link {
-    transition: all ease-in-out .3s;
-    &:hover {
-        transform: scale(1.02);
-    }
+  transition: all ease-in-out 0.3s;
+  &:hover {
+    transform: scale(1.02);
+  }
 }
