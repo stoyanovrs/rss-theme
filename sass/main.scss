@@ -23,6 +23,9 @@ body {
     }
     .wp-element-button {
       width: 100%;
+      .wp-block-button__width-50 {
+        width: 100%;
+      }
       @include mq(tablet) {
         width: auto;
       }
