@@ -1,0 +1,36 @@
+{
+  "title": "dark",
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+					"slug": "background",
+					"color": "#383838",
+					"name": "Background"
+				},
+				{
+					"slug": "h-color",
+					"color": "#fefefe",
+					"name": "Heading Color"
+				},
+				{
+					"slug": "text-color",
+					"color": "#EDEDED",
+					"name": "Text Color"
+				},
+				{
+					"slug": "primary",
+					"color": "#0744ED",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#FDD641",
+					"name": "Secondary"
+				}
+      ]
+    }
+  }
+}

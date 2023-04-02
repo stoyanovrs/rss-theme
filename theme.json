@@ -1,0 +1,394 @@
+{
+  "title": "JSON schema for WordPress block theme global settings and styles",
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "defaultPalette": false,
+      "defaultGradients": false,
+      "defaultDuotone": false,
+      "custom": false,
+      "customGradient": false,
+      "customDuotone": false,
+      "palette": [
+        {
+          "slug": "background",
+          "color": "#F9F9F9",
+          "name": "Background"
+        },
+        {
+          "slug": "h-color",
+          "color": "#222222",
+          "name": "Heading Color"
+        },
+        {
+          "slug": "text-color",
+          "color": "#383838",
+          "name": "Text Color"
+        },
+        {
+          "slug": "primary",
+          "color": "#0744ED",
+          "name": "Primary"
+        },
+        {
+          "slug": "primary-hover",
+          "color": "#2F64F9",
+          "name": "Primary Hover"
+        },
+        {
+          "slug": "secondary",
+          "color": "#FDD641",
+          "name": "Secondary"
+        }
+      ]
+    },
+    "spacing": {
+      "blockGap": true,
+      "margin": true,
+      "padding": true,
+      "units": ["px", "em", "rem", "vh", "vw", "%"],
+      "spacingScale": {
+        "operator": "*",
+        "increment": 1.5,
+        "steps": 7,
+        "mediumStep": 1.5,
+        "unit": "rem"
+      },
+      "spacingSizes": [
+        {
+          "slug": "40",
+          "size": "1rem",
+          "name": "Small"
+        },
+        {
+          "slug": "50",
+          "size": "1.5rem",
+          "name": "Medium"
+        },
+        {
+          "slug": "60",
+          "size": "2rem",
+          "name": "Large"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1200px"
+    },
+    "typography": {
+      "fluid": true,
+      "dropCap": false,
+      "fontFamilies": [
+        {
+          "name": "Montserrat",
+          "slug": "montserrat",
+          "fontFamily": "Montserrat, sans-serif",
+          "fontFace": [
+            {
+              "fontFamily": "Montserrat",
+              "fontWeight": "300",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [
+                "file:./assets/fonts/Montserrat/montserrat-v25-cyrillic_latin-300.woff2"
+              ],
+              "fontVariant": ""
+            },
+            {
+              "fontFamily": "Montserrat",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [
+                "file:./assets/fonts/Montserrat/montserrat-v25-cyrillic_latin-regular.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Montserrat",
+              "fontWeight": "700",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [
+                "file:./assets/fonts/Montserrat/montserrat-v25-cyrillic_latin-700.woff2"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Source Sans Pro",
+          "slug": "source-sans-pro",
+          "fontFamily": "Source Sans Pro, sans-serif",
+          "fontFace": [
+            {
+              "fontFamily": "Source Sans Pro",
+              "fontWeight": "200",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [
+                "file:./assets/fonts/SansPro/source-sans-pro-v21-cyrillic_latin-200.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Source Sans Pro",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [
+                "file:./assets/fonts/SansPro/source-sans-pro-v21-cyrillic_latin-regular.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Source Sans Pro",
+              "fontWeight": "700",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [
+                "file:./assets/fonts/SansPro/source-sans-pro-v21-cyrillic_latin-700.woff2"
+              ]
+            }
+          ]
+        }
+      ],
+      "fontSizes": [
+        {
+          "size": "0.87rem",
+          "fluid": {
+            "min": "0.75rem",
+            "max": "0.87rem"
+          },
+          "slug": "xs",
+          "name": "Extra Small"
+        },
+        {
+          "size": "1rem",
+          "fluid": {
+            "min": "1rem",
+            "max": "1.2rem"
+          },
+          "slug": "s",
+          "name": "Small"
+        },
+        {
+          "size": "1.125rem",
+          "fluid": {
+            "min": "1rem",
+            "max": "1.125rem"
+          },
+          "slug": "normal",
+          "name": "Normal"
+        },
+        {
+          "size": "1.75rem",
+          "fluid": {
+            "min": "1.56rem",
+            "max": "1.75rem"
+          },
+          "slug": "m",
+          "name": "Medium"
+        },
+        {
+          "size": "2.18rem",
+          "fluid": {
+            "min": "1.88rem",
+            "max": "2.18rem"
+          },
+          "slug": "l",
+          "name": "Large"
+        },
+        {
+          "size": "2.75rem",
+          "fluid": {
+            "min": "2.43rem",
+            "max": "2.75rem"
+          },
+          "slug": "xl",
+          "name": "XL"
+        },
+        {
+          "size": "3.43rem",
+          "fluid": {
+            "min": "3rem",
+            "max": "3.43rem"
+          },
+          "slug": "xxl",
+          "name": "XXL"
+        }
+      ]
+    },
+    "custom": {
+      "h-spacing": "2.375rem",
+      "v-spacing": "1.25rem",
+      "text-shadow": "0 2px 8px rgba(0, 0, 0, 0.9)",
+      "button-shadow": "0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);",
+      "button-shadow-hover": "0px 1px 3px rgba(0, 0, 0, 0.3), 0px 4px 8px 3px rgba(0, 0, 0, 0.15)",
+      "small-button-shadow": "0 1px 1px 0 rgba(0, 0, 0, 0.2)",
+      "button-highlight": "0 0 0 #fff",
+      "button-border-color": "rgba(0, 0, 0, 0.05)",
+      "button-border-radius": "8px",
+      "button-padding": ".3rem 1rem"
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var(--wp--preset--color--background)",
+      "text": "var(--wp--preset--color--text-color)"
+    },
+    "typography": {
+      "fontSize": "var(--wp--preset--font-size--medium)",
+      "fontFamily": "var(--wp--preset--font-family--montserrat)",
+      "lineHeight": "1.75"
+    },
+    "spacing": {
+      "blockGap": "1.5rem",
+      "padding": {
+        "top": "var(--wp--preset--spacing--40)",
+        "right": "var(--wp--preset--spacing--50)",
+        "bottom": "var(--wp--preset--spacing--40)",
+        "left": "var(--wp--preset--spacing--50)"
+      }
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": "var(--wp--preset--color--h-color)"
+        }
+      },
+      "heading": {
+        "typography": {
+          "fontWeight": "600",
+          "lineHeight": "1.4"
+        }
+      },
+      "h1": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--xxl)"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--xl)"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--l)"
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--m)"
+        }
+      },
+      "h5": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--normal)",
+          "textTransform": "uppercase"
+        }
+      },
+      "h6": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--xs)",
+          "textTransform": "uppercase"
+        }
+      },
+      "button": {
+        ":hover": {
+          "color": {
+            "background": "var(--wp--preset--color--primary-hover)"
+          },
+          "shadow": "var(--wp--custom--button-shadow-hover)"
+        }
+      }
+    },
+    "blocks": {
+      "core/navigation": {
+        "elements": {
+          "link": {
+            ":hover": {
+              "color": {
+                "text": "var(--wp--preset--color--primary) !important"
+              },
+              "typography": {
+                "textDecoration": "underline"
+              }
+            },
+            ":focus": {
+              "typography": {
+                "textDecoration": "underline dashed"
+              }
+            },
+            ":active": {
+              "typography": {
+                "textDecoration": "none"
+              }
+            },
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
+        },
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--normal)"
+        }
+      },
+      "core/heading": {
+        "color": {
+          "text": "var(--wp--preset--color--h-color)"
+        }
+      },
+      "core/button": {
+        "color": {
+          "background": "var(--wp--preset--color--primary)",
+          "text": "var(--wp--preset--color--background)"
+        },
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--s)"
+        },
+        "border": {
+          "radius": "8px"
+        },
+        "spacing": {
+          "padding": {
+            "top": "0.8rem",
+            "right": "1.5rem",
+            "bottom": "0.8rem",
+            "left": "1.5rem"
+          }
+        },
+        "shadow": "var(--wp--custom--button-shadow)"
+      },
+      "core/site-title": {
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
+            },
+            ":hover": {
+              "color": {
+                "text": "var(--wp--preset--color--primary)"
+              }
+            }
+          }
+        },
+        "typography": {
+          "textDecoration": "none"
+        }
+      }
+    }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Header",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "area": "footer"
+    }
+  ]
+}
