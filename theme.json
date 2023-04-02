@@ -263,7 +263,7 @@
       "button": {
         ":hover": {
           "color": {
-            "background": "var(--wp--preset--color--primary-hover)"
+            "background": "var(--wp--preset--color--secondary)"
           },
           "shadow": "var(--wp--custom--button-shadow-hover)"
         }
