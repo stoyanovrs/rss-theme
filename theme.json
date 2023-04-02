@@ -307,14 +307,14 @@
       },
       "core/button": {
         "color": {
-          "background": "var(--wp--preset--color--primary)",
+          "background": "var(--wp--preset--color--secondary)",
           "text": "var(--wp--preset--color--background)"
         },
         "typography": {
           "fontSize": "var(--wp--preset--font-size--s)"
         },
         "border": {
-          "radius": "8px"
+          "radius": "50%"
         },
         "spacing": {
           "padding": {
